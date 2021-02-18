@@ -10,7 +10,6 @@ class HomeScreen extends StatelessWidget {
       elevation: 0.0,
       centerTitle: true,
       iconTheme: IconThemeData(color: Colors.blue),
-      backgroundColor: Colors.white,
       title: Text(
         'task.',
         style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),
@@ -20,7 +19,6 @@ class HomeScreen extends StatelessWidget {
 
   FloatingActionButton buildFAT() {
     return FloatingActionButton(
-      backgroundColor: Colors.white,
       child: Icon(
         Icons.add,
         size: 30,

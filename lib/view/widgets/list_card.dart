@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 class ListCard extends StatelessWidget {
   final MyCard card;
 
-  final RxBool istap = false.obs;
+  final RxBool isChecked = false.obs;
 
   final List colors = [Colors.red[100], Colors.blue[100], Colors.green[100]];
 
@@ -40,8 +40,9 @@ class ListCard extends StatelessWidget {
                   trailing: Obx(
                     () => CircularCheckBox(
                       inactiveColor: Colors.blue,
-                      value: istap.value,
-                      onChanged: (_) => istap.value = !istap.value,
+                      activeColor: Colors.blue,
+                      value: isChecked.value,
+                      onChanged: (_) => isChecked.value = !isChecked.value,
                     ),
                   ),
                 ),

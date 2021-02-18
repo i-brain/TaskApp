@@ -4,6 +4,10 @@ import 'package:get/get.dart';
 
 void main() {
   runApp(GetMaterialApp(
+    theme: ThemeData(
+      accentColor: Colors.white,
+      primaryColor: Colors.white,
+    ),
     showSemanticsDebugger: false,
     home: HomeScreen(),
   ));
