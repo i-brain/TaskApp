@@ -26,8 +26,7 @@ dependencies:
   get: ^3.25.4
   http: ^0.12.2
   intl: ^0.16.1
-  roundcheckbox: ^1.0.0+1
-  circular_check_box: ^1.0.4
+ 
 
 
 
