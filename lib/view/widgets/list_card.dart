@@ -13,6 +13,7 @@ class ListCard extends StatelessWidget {
     Color.fromRGBO(177, 248, 193, 1)
   ];
 
+  
   /*
   Qeyd: Listtile-ın enini dizaynda göstərildiyi kimi verdikdə bəzi telefonlarda 
         pixel xetası verəcəyini düşündüyüm üçün Expanded-lə etməyi üstün tutdum.
